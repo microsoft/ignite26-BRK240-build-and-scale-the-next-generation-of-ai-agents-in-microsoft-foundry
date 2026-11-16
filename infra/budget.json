@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "displayName": "Caldova Deal Desk - monthly agent budget",
+    "rules": [
+      {
+        "name": "caldova-dealdesk-monthly",
+        "counterKey": { "type": "Project" },
+        "unit": "Usd",
+        "amount": 500,
+        "period": "Month",
+        "recurring": true,
+        "match": {
+          "projectIds": [
+            "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.CognitiveServices/accounts/<foundry-account>/projects/<project>"
+          ]
+        },
+        "thresholds": [
+          { "type": "Percentage", "value": 80, "action": "Alert" },
+          { "type": "Percentage", "value": 100, "action": "Block" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caldova-pricing"
+version = "0.1.0"
+description = "Deterministic deal economics for illustrative Caldova planning; no external transactions"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["caldova_pricing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

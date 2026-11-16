@@ -1,0 +1,4 @@
+-r requirements.txt
+opentelemetry-sdk>=1.45
+pytest>=8
+pyyaml>=6

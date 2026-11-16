@@ -1,0 +1,2658 @@
+{
+  "synthetic": true,
+  "generated_at": "2026-11-08T08:00:00Z",
+  "deals": [
+    {
+      "deal_id": "DEAL-NW-001",
+      "customer_id": "C-0001",
+      "customer_name": "Northwind Pharmacy",
+      "segment": "national_chain",
+      "stores": 2100,
+      "region": "National",
+      "seller": "Priya",
+      "tcv_usd": 48000000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "Email from Priya (seller)",
+      "ask": {
+        "rebate_pct": 18.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 90,
+        "price_protection_months": 24,
+        "cpi_cap": false,
+        "mdf_usd": 1200000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-NW-001",
+        "customer_name": "Northwind Pharmacy",
+        "annual_list_revenue_usd": [
+          14400000.0,
+          16000000.0,
+          17600000.0
+        ],
+        "annual_commit_usd": [
+          13846153.85,
+          14814814.81,
+          15714285.71
+        ],
+        "cogs_ratio": 0.5459,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": [
+          15369230.77,
+          17037037.03,
+          18857142.85
+        ],
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "escalate",
+        "required_role": "vp_finance",
+        "ask_gm_pct": 26.4,
+        "reason": "No within-authority counter keeps 80% of the asked value; recommended counter needs Dana (VP Finance).",
+        "counter_terms": {
+          "rebate_pct": 12.0,
+          "growth_kicker_pct": 2.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 900000.0,
+          "mdf_sell_through": true
+        },
+        "counter_gm_pct": 33.07,
+        "counter_value_pct_of_ask": 85.1
+      },
+      "synthetic": true,
+      "summary": "Exclusive 3-year home-diagnostics agreement, ~$48M TCV. Quarter-end: needs answer by Friday.",
+      "attachments": [
+        "data/seed/priya_email.md",
+        "data/seed/northwind_redline.md"
+      ]
+    },
+    {
+      "deal_id": "DEAL-RT-001",
+      "customer_id": "C-0002",
+      "customer_name": "Lakeshore Pharmacy Group",
+      "segment": "regional_chain",
+      "stores": 140,
+      "region": "Midwest",
+      "seller": "Marco",
+      "tcv_usd": 6300000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "email",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 63000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-RT-001",
+        "customer_name": "Lakeshore Pharmacy Group",
+        "annual_list_revenue_usd": [
+          2000000.0,
+          2100000.0,
+          2200000.0
+        ],
+        "annual_commit_usd": [
+          1941747.57,
+          2038834.95,
+          2135922.33
+        ],
+        "cogs_ratio": 0.5,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 41.82,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true,
+      "summary": "Regional chain renewal: 9% rebate at Net-45."
+    },
+    {
+      "deal_id": "DEAL-Q-001",
+      "customer_id": "C-0029",
+      "customer_name": "QuickDose.com",
+      "segment": "online",
+      "stores": 0,
+      "region": "National",
+      "seller": "Priya",
+      "tcv_usd": 2870000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 17.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 90,
+        "price_protection_months": 24,
+        "cpi_cap": false,
+        "mdf_usd": 73000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-001",
+        "customer_name": "QuickDose.com",
+        "annual_list_revenue_usd": [
+          1409000.0,
+          1461000.0
+        ],
+        "annual_commit_usd": [
+          1303676.95,
+          1351789.94
+        ],
+        "cogs_ratio": 0.5133,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "escalate",
+        "required_role": "vp_finance",
+        "ask_gm_pct": 30.89,
+        "reason": "No within-authority counter keeps 80% of the asked value; recommended counter needs Dana (VP Finance).",
+        "counter_terms": {
+          "rebate_pct": 17.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 50000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 33.53,
+        "counter_value_pct_of_ask": 87.2
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-002",
+      "customer_id": "C-0031",
+      "customer_name": "Valley Market Rx",
+      "segment": "grocery_pharmacy",
+      "stores": 368,
+      "region": "Midwest",
+      "seller": "Marco",
+      "tcv_usd": 1150000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 11000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-002",
+        "customer_name": "Valley Market Rx",
+        "annual_list_revenue_usd": [
+          562000.0,
+          588000.0
+        ],
+        "annual_commit_usd": [
+          519238.24,
+          543259.94
+        ],
+        "cogs_ratio": 0.5122,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 40.99,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-003",
+      "customer_id": "C-0036",
+      "customer_name": "CarePoint Clinic Partners",
+      "segment": "clinic_distributor",
+      "stores": 0,
+      "region": "Midwest",
+      "seller": "Marco",
+      "tcv_usd": 2950000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 58000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-003",
+        "customer_name": "CarePoint Clinic Partners",
+        "annual_list_revenue_usd": [
+          936000.0,
+          983000.0,
+          1031000.0
+        ],
+        "annual_commit_usd": [
+          850989.15,
+          893720.44,
+          937360.91
+        ],
+        "cogs_ratio": 0.4966,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 42.81,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-004",
+      "customer_id": "C-0004",
+      "customer_name": "Fabrikam Drug Co.",
+      "segment": "regional_chain",
+      "stores": 163,
+      "region": "Southeast",
+      "seller": "Marco",
+      "tcv_usd": 5990000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 45000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-004",
+        "customer_name": "Fabrikam Drug Co.",
+        "annual_list_revenue_usd": [
+          2908000.0,
+          3082000.0
+        ],
+        "annual_commit_usd": [
+          2792443.54,
+          2959529.23
+        ],
+        "cogs_ratio": 0.484,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 44.16,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-005",
+      "customer_id": "C-0010",
+      "customer_name": "Coho Health",
+      "segment": "regional_chain",
+      "stores": 400,
+      "region": "West",
+      "seller": "Marco",
+      "tcv_usd": 5100000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 11.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 75,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 88000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-005",
+        "customer_name": "Coho Health",
+        "annual_list_revenue_usd": [
+          1625000.0,
+          1699000.0,
+          1776000.0
+        ],
+        "annual_commit_usd": [
+          1473697.12,
+          1540807.02,
+          1610637.59
+        ],
+        "cogs_ratio": 0.501,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 39.33,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 115% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 8.0,
+          "growth_kicker_pct": 2.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 80000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 39.97,
+        "counter_value_pct_of_ask": 115.0
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-006",
+      "customer_id": "C-0030",
+      "customer_name": "Fresh Fields Grocery Pharmacy",
+      "segment": "grocery_pharmacy",
+      "stores": 540,
+      "region": "Mountain",
+      "seller": "Diego",
+      "tcv_usd": 1400000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 8.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 26000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-006",
+        "customer_name": "Fresh Fields Grocery Pharmacy",
+        "annual_list_revenue_usd": [
+          1400000.0
+        ],
+        "annual_commit_usd": [
+          1395400.9
+        ],
+        "cogs_ratio": 0.4702,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 46.88,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-007",
+      "customer_id": "C-0032",
+      "customer_name": "Harbor Foods Pharmacy",
+      "segment": "grocery_pharmacy",
+      "stores": 263,
+      "region": "West",
+      "seller": "Marco",
+      "tcv_usd": 1680000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 30000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-007",
+        "customer_name": "Harbor Foods Pharmacy",
+        "annual_list_revenue_usd": [
+          541000.0,
+          560000.0,
+          579000.0
+        ],
+        "annual_commit_usd": [
+          518302.62,
+          536505.48,
+          554708.35
+        ],
+        "cogs_ratio": 0.5215,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 40.61,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-008",
+      "customer_id": "C-0028",
+      "customer_name": "ParcelPharm",
+      "segment": "online",
+      "stores": 0,
+      "region": "National",
+      "seller": "Diego",
+      "tcv_usd": 2330000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 34000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-008",
+        "customer_name": "ParcelPharm",
+        "annual_list_revenue_usd": [
+          1141000.0,
+          1189000.0
+        ],
+        "annual_commit_usd": [
+          1119337.11,
+          1166425.79
+        ],
+        "cogs_ratio": 0.4977,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 43.48,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-009",
+      "customer_id": "C-0015",
+      "customer_name": "Northbrook Independent Pharmacies",
+      "segment": "independent_group",
+      "stores": 34,
+      "region": "Northeast",
+      "seller": "Priya",
+      "tcv_usd": 600000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 11000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-009",
+        "customer_name": "Northbrook Independent Pharmacies",
+        "annual_list_revenue_usd": [
+          294000.0,
+          306000.0
+        ],
+        "annual_commit_usd": [
+          278446.23,
+          289811.39
+        ],
+        "cogs_ratio": 0.4371,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 48.05,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-010",
+      "customer_id": "C-0030",
+      "customer_name": "Fresh Fields Grocery Pharmacy",
+      "segment": "grocery_pharmacy",
+      "stores": 540,
+      "region": "Mountain",
+      "seller": "Ken",
+      "tcv_usd": 2320000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 8.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 14000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-010",
+        "customer_name": "Fresh Fields Grocery Pharmacy",
+        "annual_list_revenue_usd": [
+          2320000.0
+        ],
+        "annual_commit_usd": [
+          2167187.96
+        ],
+        "cogs_ratio": 0.4702,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 47.61,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-011",
+      "customer_id": "C-0019",
+      "customer_name": "Relecloud Pharmacy Alliance",
+      "segment": "independent_group",
+      "stores": 99,
+      "region": "Northeast",
+      "seller": "Sofia",
+      "tcv_usd": 640000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 12000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-011",
+        "customer_name": "Relecloud Pharmacy Alliance",
+        "annual_list_revenue_usd": [
+          640000.0
+        ],
+        "annual_commit_usd": [
+          605285.71
+        ],
+        "cogs_ratio": 0.4344,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 49.4,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-012",
+      "customer_id": "C-0025",
+      "customer_name": "Wingtip Family Pharmacy",
+      "segment": "independent_group",
+      "stores": 160,
+      "region": "Northeast",
+      "seller": "Ken",
+      "tcv_usd": 1951000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 24000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-012",
+        "customer_name": "Wingtip Family Pharmacy",
+        "annual_list_revenue_usd": [
+          637000.0,
+          650000.0,
+          664000.0
+        ],
+        "annual_commit_usd": [
+          581333.94,
+          593197.9,
+          605974.47
+        ],
+        "cogs_ratio": 0.4795,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 45.37,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-013",
+      "customer_id": "C-0036",
+      "customer_name": "CarePoint Clinic Partners",
+      "segment": "clinic_distributor",
+      "stores": 0,
+      "region": "Midwest",
+      "seller": "Diego",
+      "tcv_usd": 3410000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 29000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-013",
+        "customer_name": "CarePoint Clinic Partners",
+        "annual_list_revenue_usd": [
+          1051000.0,
+          1134000.0,
+          1225000.0
+        ],
+        "annual_commit_usd": [
+          1000307.11,
+          1079303.77,
+          1165914.57
+        ],
+        "cogs_ratio": 0.4966,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 43.16,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-014",
+      "customer_id": "C-0008",
+      "customer_name": "Alpine Ridge Drug",
+      "segment": "regional_chain",
+      "stores": 320,
+      "region": "Mountain",
+      "seller": "Sofia",
+      "tcv_usd": 3020000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 8.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 53000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-014",
+        "customer_name": "Alpine Ridge Drug",
+        "annual_list_revenue_usd": [
+          3020000.0
+        ],
+        "annual_commit_usd": [
+          2951858.02
+        ],
+        "cogs_ratio": 0.4879,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 44.66,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-015",
+      "customer_id": "C-0009",
+      "customer_name": "Bluewater Pharmacy",
+      "segment": "regional_chain",
+      "stores": 148,
+      "region": "Southeast",
+      "seller": "Sofia",
+      "tcv_usd": 4830000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 11.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 77000.0,
+        "mdf_sell_through": true
+      },
+      "context": {
+        "deal_id": "DEAL-Q-015",
+        "customer_name": "Bluewater Pharmacy",
+        "annual_list_revenue_usd": [
+          2372000.0,
+          2458000.0
+        ],
+        "annual_commit_usd": [
+          2340620.25,
+          2425482.54
+        ],
+        "cogs_ratio": 0.4811,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 41.79,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 93% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 60000.0,
+          "mdf_sell_through": true
+        },
+        "counter_gm_pct": 42.78,
+        "counter_value_pct_of_ask": 92.9
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-016",
+      "customer_id": "C-0014",
+      "customer_name": "Adventure Works Pharmacy Co-op",
+      "segment": "independent_group",
+      "stores": 151,
+      "region": "Northeast",
+      "seller": "Aisha",
+      "tcv_usd": 2190000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 33000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-016",
+        "customer_name": "Adventure Works Pharmacy Co-op",
+        "annual_list_revenue_usd": [
+          701000.0,
+          730000.0,
+          759000.0
+        ],
+        "annual_commit_usd": [
+          634168.24,
+          660403.44,
+          686638.65
+        ],
+        "cogs_ratio": 0.4376,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 49.0,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-017",
+      "customer_id": "C-0022",
+      "customer_name": "Southridge Pharmacies",
+      "segment": "independent_group",
+      "stores": 44,
+      "region": "Mountain",
+      "seller": "Aisha",
+      "tcv_usd": 990000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 18000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-017",
+        "customer_name": "Southridge Pharmacies",
+        "annual_list_revenue_usd": [
+          478000.0,
+          512000.0
+        ],
+        "annual_commit_usd": [
+          474292.03,
+          508028.29
+        ],
+        "cogs_ratio": 0.44,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 47.72,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-018",
+      "customer_id": "C-0016",
+      "customer_name": "Fourth Coffee Clinics Supply",
+      "segment": "independent_group",
+      "stores": 144,
+      "region": "Southeast",
+      "seller": "Aisha",
+      "tcv_usd": 1080000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 21000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-018",
+        "customer_name": "Fourth Coffee Clinics Supply",
+        "annual_list_revenue_usd": [
+          522000.0,
+          558000.0
+        ],
+        "annual_commit_usd": [
+          491169.55,
+          525043.31
+        ],
+        "cogs_ratio": 0.4888,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 42.59,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-019",
+      "customer_id": "C-0004",
+      "customer_name": "Fabrikam Drug Co.",
+      "segment": "regional_chain",
+      "stores": 163,
+      "region": "Southeast",
+      "seller": "Marco",
+      "tcv_usd": 5040000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 12.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 91000.0,
+        "mdf_sell_through": true
+      },
+      "context": {
+        "deal_id": "DEAL-Q-019",
+        "customer_name": "Fabrikam Drug Co.",
+        "annual_list_revenue_usd": [
+          2441000.0,
+          2599000.0
+        ],
+        "annual_commit_usd": [
+          2429164.62,
+          2586398.54
+        ],
+        "cogs_ratio": 0.484,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 41.52,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 99% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 90000.0,
+          "mdf_sell_through": true
+        },
+        "counter_gm_pct": 42.15,
+        "counter_value_pct_of_ask": 99.3
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-020",
+      "customer_id": "C-0032",
+      "customer_name": "Harbor Foods Pharmacy",
+      "segment": "grocery_pharmacy",
+      "stores": 263,
+      "region": "West",
+      "seller": "Diego",
+      "tcv_usd": 4560000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 62000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-020",
+        "customer_name": "Harbor Foods Pharmacy",
+        "annual_list_revenue_usd": [
+          2219000.0,
+          2341000.0
+        ],
+        "annual_commit_usd": [
+          2012712.96,
+          2123371.35
+        ],
+        "cogs_ratio": 0.5215,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 39.38,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-021",
+      "customer_id": "C-0010",
+      "customer_name": "Coho Health",
+      "segment": "regional_chain",
+      "stores": 400,
+      "region": "West",
+      "seller": "Ken",
+      "tcv_usd": 8801000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 106000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-021",
+        "customer_name": "Coho Health",
+        "annual_list_revenue_usd": [
+          2734000.0,
+          2929000.0,
+          3138000.0
+        ],
+        "annual_commit_usd": [
+          2551833.02,
+          2733840.13,
+          2928914.42
+        ],
+        "cogs_ratio": 0.501,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 41.26,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-022",
+      "customer_id": "C-0013",
+      "customer_name": "Margie's Corner Drug",
+      "segment": "regional_chain",
+      "stores": 412,
+      "region": "Mountain",
+      "seller": "Sofia",
+      "tcv_usd": 5670000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 17.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 75,
+        "price_protection_months": 24,
+        "cpi_cap": false,
+        "mdf_usd": 140000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-022",
+        "customer_name": "Margie's Corner Drug",
+        "annual_list_revenue_usd": [
+          2762000.0,
+          2908000.0
+        ],
+        "annual_commit_usd": [
+          2641623.22,
+          2781260.07
+        ],
+        "cogs_ratio": 0.5061,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "escalate",
+        "required_role": "vp_finance",
+        "ask_gm_pct": 32.18,
+        "reason": "No within-authority counter keeps 80% of the asked value; recommended counter needs Dana (VP Finance).",
+        "counter_terms": {
+          "rebate_pct": 17.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 110000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 34.23,
+        "counter_value_pct_of_ask": 89.9
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-023",
+      "customer_id": "C-0021",
+      "customer_name": "Humongous Wellness Shops",
+      "segment": "independent_group",
+      "stores": 51,
+      "region": "Midwest",
+      "seller": "Sofia",
+      "tcv_usd": 2240000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 33000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-023",
+        "customer_name": "Humongous Wellness Shops",
+        "annual_list_revenue_usd": [
+          691000.0,
+          745000.0,
+          804000.0
+        ],
+        "annual_commit_usd": [
+          657450.84,
+          708829.06,
+          764964.51
+        ],
+        "cogs_ratio": 0.4592,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 47.02,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-024",
+      "customer_id": "C-0028",
+      "customer_name": "ParcelPharm",
+      "segment": "online",
+      "stores": 0,
+      "region": "National",
+      "seller": "Aisha",
+      "tcv_usd": 7120000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 113000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-024",
+        "customer_name": "ParcelPharm",
+        "annual_list_revenue_usd": [
+          3511000.0,
+          3609000.0
+        ],
+        "annual_commit_usd": [
+          3481963.85,
+          3579153.38
+        ],
+        "cogs_ratio": 0.4977,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 40.71,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 101% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 45,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 110000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 40.91,
+        "counter_value_pct_of_ask": 100.9
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-025",
+      "customer_id": "C-0006",
+      "customer_name": "Wide World Wellness",
+      "segment": "regional_chain",
+      "stores": 65,
+      "region": "Mountain",
+      "seller": "Sofia",
+      "tcv_usd": 5530000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 99000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-025",
+        "customer_name": "Wide World Wellness",
+        "annual_list_revenue_usd": [
+          2706000.0,
+          2824000.0
+        ],
+        "annual_commit_usd": [
+          2700109.35,
+          2817852.47
+        ],
+        "cogs_ratio": 0.4848,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 42.01,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 100% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 45,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 90000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 42.28,
+        "counter_value_pct_of_ask": 100.1
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-026",
+      "customer_id": "C-0006",
+      "customer_name": "Wide World Wellness",
+      "segment": "regional_chain",
+      "stores": 65,
+      "region": "Mountain",
+      "seller": "Diego",
+      "tcv_usd": 2960000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 15000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-026",
+        "customer_name": "Wide World Wellness",
+        "annual_list_revenue_usd": [
+          2960000.0
+        ],
+        "annual_commit_usd": [
+          2702079.36
+        ],
+        "cogs_ratio": 0.4848,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 45.79,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-027",
+      "customer_id": "C-0002",
+      "customer_name": "Lakeshore Pharmacy Group",
+      "segment": "regional_chain",
+      "stores": 140,
+      "region": "Midwest",
+      "seller": "Ken",
+      "tcv_usd": 7140000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 17.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 90,
+        "price_protection_months": 24,
+        "cpi_cap": false,
+        "mdf_usd": 195000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-027",
+        "customer_name": "Lakeshore Pharmacy Group",
+        "annual_list_revenue_usd": [
+          3517000.0,
+          3623000.0
+        ],
+        "annual_commit_usd": [
+          3306017.67,
+          3405658.81
+        ],
+        "cogs_ratio": 0.5,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "escalate",
+        "required_role": "vp_finance",
+        "ask_gm_pct": 32.4,
+        "reason": "No within-authority counter keeps 80% of the asked value; recommended counter needs Dana (VP Finance).",
+        "counter_terms": {
+          "rebate_pct": 17.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 130000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 35.08,
+        "counter_value_pct_of_ask": 86.9
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-028",
+      "customer_id": "C-0005",
+      "customer_name": "Tailspin Pharmacy",
+      "segment": "regional_chain",
+      "stores": 170,
+      "region": "Midwest",
+      "seller": "Diego",
+      "tcv_usd": 3450000.0,
+      "term_years": 2,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 11.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 67000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-028",
+        "customer_name": "Tailspin Pharmacy",
+        "annual_list_revenue_usd": [
+          1692000.0,
+          1758000.0
+        ],
+        "annual_commit_usd": [
+          1636720.83,
+          1700564.55
+        ],
+        "cogs_ratio": 0.4926,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 40.05,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 94% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 60000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 41.02,
+        "counter_value_pct_of_ask": 93.8
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-029",
+      "customer_id": "C-0030",
+      "customer_name": "Fresh Fields Grocery Pharmacy",
+      "segment": "grocery_pharmacy",
+      "stores": 540,
+      "region": "Mountain",
+      "seller": "Aisha",
+      "tcv_usd": 6570000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 94000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-029",
+        "customer_name": "Fresh Fields Grocery Pharmacy",
+        "annual_list_revenue_usd": [
+          2035000.0,
+          2186000.0,
+          2349000.0
+        ],
+        "annual_commit_usd": [
+          1826666.78,
+          1962208.15,
+          2108521.02
+        ],
+        "cogs_ratio": 0.4702,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 45.89,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-030",
+      "customer_id": "C-0012",
+      "customer_name": "Proseware Pharmacy",
+      "segment": "regional_chain",
+      "stores": 345,
+      "region": "Southeast",
+      "seller": "Ken",
+      "tcv_usd": 6970000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 47000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-030",
+        "customer_name": "Proseware Pharmacy",
+        "annual_list_revenue_usd": [
+          2255000.0,
+          2323000.0,
+          2392000.0
+        ],
+        "annual_commit_usd": [
+          2163755.78,
+          2229004.29,
+          2295212.33
+        ],
+        "cogs_ratio": 0.5008,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 41.64,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-031",
+      "customer_id": "C-0027",
+      "customer_name": "HealthHub Direct",
+      "segment": "online",
+      "stores": 0,
+      "region": "National",
+      "seller": "Diego",
+      "tcv_usd": 2080000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 8.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 18000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-031",
+        "customer_name": "HealthHub Direct",
+        "annual_list_revenue_usd": [
+          2080000.0
+        ],
+        "annual_commit_usd": [
+          1971555.62
+        ],
+        "cogs_ratio": 0.5179,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 42.54,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-032",
+      "customer_id": "C-0014",
+      "customer_name": "Adventure Works Pharmacy Co-op",
+      "segment": "independent_group",
+      "stores": 151,
+      "region": "Northeast",
+      "seller": "Priya",
+      "tcv_usd": 920000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 7000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-032",
+        "customer_name": "Adventure Works Pharmacy Co-op",
+        "annual_list_revenue_usd": [
+          291000.0,
+          306000.0,
+          323000.0
+        ],
+        "annual_commit_usd": [
+          284119.09,
+          298764.4,
+          315362.42
+        ],
+        "cogs_ratio": 0.4376,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 48.92,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-033",
+      "customer_id": "C-0021",
+      "customer_name": "Humongous Wellness Shops",
+      "segment": "independent_group",
+      "stores": 51,
+      "region": "Midwest",
+      "seller": "Ken",
+      "tcv_usd": 650000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 7000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-033",
+        "customer_name": "Humongous Wellness Shops",
+        "annual_list_revenue_usd": [
+          650000.0
+        ],
+        "annual_commit_usd": [
+          642863.44
+        ],
+        "cogs_ratio": 0.4592,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 47.71,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-034",
+      "customer_id": "C-0011",
+      "customer_name": "Litware Drug Stores",
+      "segment": "regional_chain",
+      "stores": 337,
+      "region": "Southeast",
+      "seller": "Sofia",
+      "tcv_usd": 2240000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 20000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-034",
+        "customer_name": "Litware Drug Stores",
+        "annual_list_revenue_usd": [
+          2240000.0
+        ],
+        "annual_commit_usd": [
+          2099664.18
+        ],
+        "cogs_ratio": 0.5027,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 42.62,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-035",
+      "customer_id": "C-0017",
+      "customer_name": "Trey Research Apothecary Network",
+      "segment": "independent_group",
+      "stores": 159,
+      "region": "Midwest",
+      "seller": "Sofia",
+      "tcv_usd": 1710000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 28000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-035",
+        "customer_name": "Trey Research Apothecary Network",
+        "annual_list_revenue_usd": [
+          553000.0,
+          570000.0,
+          587000.0
+        ],
+        "annual_commit_usd": [
+          538886.14,
+          555452.26,
+          572018.38
+        ],
+        "cogs_ratio": 0.473,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 42.9,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 116% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 20000.0,
+          "mdf_sell_through": false
+        },
+        "counter_gm_pct": 43.3,
+        "counter_value_pct_of_ask": 115.7
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-036",
+      "customer_id": "C-0018",
+      "customer_name": "Lucerne Health Buyers Group",
+      "segment": "independent_group",
+      "stores": 156,
+      "region": "Mountain",
+      "seller": "Aisha",
+      "tcv_usd": 480000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 9.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 45,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 3000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-036",
+        "customer_name": "Lucerne Health Buyers Group",
+        "annual_list_revenue_usd": [
+          480000.0
+        ],
+        "annual_commit_usd": [
+          455959.65
+        ],
+        "cogs_ratio": 0.4399,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 50.37,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-037",
+      "customer_id": "C-0021",
+      "customer_name": "Humongous Wellness Shops",
+      "segment": "independent_group",
+      "stores": 51,
+      "region": "Midwest",
+      "seller": "Marco",
+      "tcv_usd": 1819000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 8.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 20000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-037",
+        "customer_name": "Humongous Wellness Shops",
+        "annual_list_revenue_usd": [
+          583000.0,
+          606000.0,
+          630000.0
+        ],
+        "annual_commit_usd": [
+          527222.39,
+          548021.9,
+          569725.74
+        ],
+        "cogs_ratio": 0.4592,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 46.39,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-038",
+      "customer_id": "C-0027",
+      "customer_name": "HealthHub Direct",
+      "segment": "online",
+      "stores": 0,
+      "region": "National",
+      "seller": "Aisha",
+      "tcv_usd": 9080000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 12.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 75,
+        "price_protection_months": 18,
+        "cpi_cap": false,
+        "mdf_usd": 156000.0,
+        "mdf_sell_through": true
+      },
+      "context": {
+        "deal_id": "DEAL-Q-038",
+        "customer_name": "HealthHub Direct",
+        "annual_list_revenue_usd": [
+          2914000.0,
+          3025000.0,
+          3141000.0
+        ],
+        "annual_commit_usd": [
+          2669145.67,
+          2770818.69,
+          2877071.57
+        ],
+        "cogs_ratio": 0.5179,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "counter",
+        "required_role": "agent",
+        "ask_gm_pct": 36.44,
+        "reason": "Ask exceeds agent authority; a within-authority counter keeps 101% of the asked customer value.",
+        "counter_terms": {
+          "rebate_pct": 10.0,
+          "growth_kicker_pct": 0.0,
+          "growth_kicker_threshold_pct": 110.0,
+          "payment_terms_days": 60,
+          "price_protection_months": 12,
+          "cpi_cap": true,
+          "mdf_usd": 140000.0,
+          "mdf_sell_through": true
+        },
+        "counter_gm_pct": 38.36,
+        "counter_value_pct_of_ask": 100.8
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-039",
+      "customer_id": "C-0004",
+      "customer_name": "Fabrikam Drug Co.",
+      "segment": "regional_chain",
+      "stores": 163,
+      "region": "Southeast",
+      "seller": "Aisha",
+      "tcv_usd": 4900000.0,
+      "term_years": 3,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 10.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 60,
+        "price_protection_months": 6,
+        "cpi_cap": false,
+        "mdf_usd": 27000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-039",
+        "customer_name": "Fabrikam Drug Co.",
+        "annual_list_revenue_usd": [
+          1564000.0,
+          1632000.0,
+          1704000.0
+        ],
+        "annual_commit_usd": [
+          1480001.17,
+          1544349.04,
+          1612482.09
+        ],
+        "cogs_ratio": 0.484,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 42.89,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    },
+    {
+      "deal_id": "DEAL-Q-040",
+      "customer_id": "C-0031",
+      "customer_name": "Valley Market Rx",
+      "segment": "grocery_pharmacy",
+      "stores": 368,
+      "region": "Midwest",
+      "seller": "Sofia",
+      "tcv_usd": 1630000.0,
+      "term_years": 1,
+      "start_date": "2027-01-01",
+      "source": "8am pipeline sweep",
+      "ask": {
+        "rebate_pct": 7.0,
+        "growth_kicker_pct": 0.0,
+        "growth_kicker_threshold_pct": 110.0,
+        "payment_terms_days": 30,
+        "price_protection_months": 12,
+        "cpi_cap": false,
+        "mdf_usd": 14000.0,
+        "mdf_sell_through": false
+      },
+      "context": {
+        "deal_id": "DEAL-Q-040",
+        "customer_name": "Valley Market Rx",
+        "annual_list_revenue_usd": [
+          1630000.0
+        ],
+        "annual_commit_usd": [
+          1510746.11
+        ],
+        "cogs_ratio": 0.5122,
+        "forecast": {
+          "sensor_pass_through_pct_by_year": [
+            0.0,
+            5.0,
+            5.5
+          ],
+          "cpi_pct": 3.0
+        },
+        "customer_plan_revenue_usd": null,
+        "caldova_wacc_pct": 7.0,
+        "customer_cost_of_capital_pct": 12.0,
+        "customer_market_increase_pct": 6.7,
+        "mdf_claim_rate": 0.8,
+        "sell_through_mdf_customer_value": 0.95
+      },
+      "expected_triage": {
+        "outcome": "auto_approve",
+        "required_role": "agent",
+        "ask_gm_pct": 43.79,
+        "reason": "Ask is within agent authority and meets the 32% floor.",
+        "counter_terms": null,
+        "counter_gm_pct": null,
+        "counter_value_pct_of_ask": null
+      },
+      "synthetic": true
+    }
+  ]
+}
