@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+requiredVersions:
+  extensions:
+    azure.ai.agents: ">=1.0.0"
+name: deal-economics
+infra:
+  provider: microsoft.foundry
+services:
+  foundry-project:
+    host: azure.ai.project
+    endpoint: ${FOUNDRY_PROJECT_ENDPOINT}
+  deal-economics:
+    host: azure.ai.agent
+    kind: hosted
+    name: deal-economics
+    displayName: Deal Economics Agent
+    description: Caldova's deterministic deal-math service. P&L waterfall, margin-floor check, counter-offer search and price-protection cost from the caldova_pricing engine. Planning figures only; no approvals or external transactions.
+    project: .
+    language: python
+    codeConfiguration:
+      runtime: python_3_13
+      entryPoint: agent.py
+      dependencyResolution: remote_build
+    startupCommand: python agent.py
+    uses:
+      - foundry-project
+    protocols:
+      - protocol: responses
+        version: 2.0.0
+    agentEndpoint:
+      protocols:
+        - responses
+    agentCard:
+      version: "1.0"
+      description: Caldova's deterministic deal-math service. Returns deal P&L waterfalls, margin-floor checks, ranked counters and price-protection cost from caldova_pricing. No approvals or external transactions.
+      skills:
+        - id: model-deal
+          name: Model a deal
+          description: P&L waterfall, GM vs the 32% floor, GM bridge and the top 3 counter-offers with required approver for a deal id (e.g. DEAL-NW-001).
+          examples:
+            - Model Northwind's ask.
+            - Evaluate DEAL-NW-001 with 12% rebate + 2% kicker, Net-60, 12-mo protection with CPI cap, $900K sell-through MDF.
+        - id: price-protection-cost
+          name: Price-protection cost
+          description: Unrecoverable component-cost increase from N months of price protection, using the component cost forecast.
+          examples:
+            - What does 24 months of price protection cost on Northwind?
+    env:
+      PYTHONNOUSERSITE: "1"
+      AZURE_AI_MODEL_DEPLOYMENT_NAME: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+    policies:
+      - type: rai_policy
+        raiPolicyName: ${RAI_POLICY_ID}
+    container:
+      resources:
+        cpu: "1"
+        memory: 2Gi
+  deal-economics-evals:
+    $ref: ./eval.yaml
+    host: azure.ai.eval
+    uses:
+      - foundry-project
+      - deal-economics

@@ -1,0 +1,30 @@
+# Files excluded from the hosted-agent code package (.gitignore syntax).
+
+# azd tooling
+azure.yaml
+.agentignore
+.azure/
+
+# Secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+.pytest_cache/
+
+# Repo-only files
+README.md
+tests/
+datasets/
+eval.yaml
+infra/
+sync_vendor.py
+requirements-dev.txt
+
+# Local logs and substituted policy
+*.log
+egress-policy.local.json

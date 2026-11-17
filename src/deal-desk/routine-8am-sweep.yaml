@@ -1,0 +1,22 @@
+# 8am pipeline sweep for the Caldova Deal Desk agent. Create or update it (from this folder):
+#   azd ai routine create deal-desk-8am-sweep --file routine-8am-sweep.yaml --force
+description: "8am illustrative pipeline sweep: triage open deals for internal approval, counter, or escalation; no customer order or external offer is submitted"
+triggers:
+  default:
+    type: schedule
+    cronExpression: "0 8 * * 1-5"
+    timeZone: America/Los_Angeles
+action:
+  type: invoke_agent_responses_api
+  agentName: caldova-deal-desk
+  input: >-
+    8am pipeline sweep. Use the Deal System list_queue(status="open", limit=100) and triage every open deal whose id
+    starts with DEAL-Q- (skip DEAL-NW-001 and DEAL-RT-001; those are handled live). For each deal call
+    evaluate_deal(deal_id) once and follow its classification: auto_approve -> submit_decision(approve, the ask terms);
+    counter -> submit_decision(counter, the recommended counter terms); escalate -> do not request approval in the
+    sweep, just list it for a human. Finish with one table: counts of auto-approved / countered / escalated, and the
+    escalated deal ids with ask GM and recommended counter GM. Label the table as an illustrative planning record;
+    decisions are internal to this Deal System and do not submit a customer order or external offer. Report only
+    internal decisions confirmed by successful tool results; flag failed calls explicitly.
+authorization:
+  identity: creator

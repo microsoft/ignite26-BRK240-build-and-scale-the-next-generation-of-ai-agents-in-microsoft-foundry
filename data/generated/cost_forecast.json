@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "description": "Planning forecast: sensor-component cost increase lands in contract year 2 (2028), further step in 2029. Illustrative planning record; decisions are internal to this Deal System and do not submit a customer order or external offer.",
+  "contract_years": [
+    2027,
+    2028,
+    2029
+  ],
+  "sensor_component_increase_pct_by_year": {
+    "2027": 0.0,
+    "2028": 34.23,
+    "2029": 37.66
+  },
+  "sensor_pass_through_pct_by_year": [
+    0.0,
+    5.0,
+    5.5
+  ],
+  "cpi_pct": 3.0,
+  "caldova_wacc_pct": 7.0,
+  "increase_start_month": 13
+}

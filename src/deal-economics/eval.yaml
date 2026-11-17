@@ -1,0 +1,18 @@
+datasets:
+  - name: deal-economics-eval
+    file: ./datasets/deal-economics-eval.jsonl
+evals:
+  - name: deal-economics-golden
+    description: Basic quality evaluation for deal-economics
+    dataset: deal-economics-eval
+    evaluationLevel: turn
+    evaluators:
+      - evaluator: builtin.task_completion
+        initializationParameters:
+          model: gpt-5.4-mini
+      - evaluator: builtin.task_adherence
+        initializationParameters:
+          model: gpt-5.4-mini
+    target:
+      type: agent
+      name: deal-economics

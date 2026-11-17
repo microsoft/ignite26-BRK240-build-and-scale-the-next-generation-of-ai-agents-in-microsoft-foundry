@@ -1,0 +1,7 @@
+{
+  "properties": {
+    "costControlIds": [
+      "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.CognitiveServices/accounts/<foundry-account>/costControls/caldova-dealdesk-budget"
+    ]
+  }
+}

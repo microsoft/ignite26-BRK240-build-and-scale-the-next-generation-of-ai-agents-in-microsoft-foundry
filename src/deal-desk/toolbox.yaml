@@ -1,0 +1,8 @@
+# Toolbox for the Caldova Deal Desk agent. Create it after the deal-system connection exists:
+#   azd ai toolbox create deal-desk-toolbox --from-file toolbox.yaml
+# The connection's target (the Deal System /mcp URL) becomes the toolbox's MCP server.
+# Skills are attached to the agent (azure.yaml), not to this toolbox.
+name: deal-desk-toolbox
+description: Caldova Deal Desk toolbox - Deal System MCP tools (deals, decisions, approvals, CRM, term sheets)
+connections:
+  - name: deal-system
